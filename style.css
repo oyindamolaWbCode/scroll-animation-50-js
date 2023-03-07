@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-color: black;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -20,12 +20,12 @@ h1 {
 }
 
 .box {
-  background-color: steelblue;
+  /* background-color: steelblue; */
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 400px;
+  justify-content: space-between;
+  width: 700px;
   height: 200px;
   margin: 10px;
   border-radius: 10px;
@@ -43,5 +43,5 @@ h1 {
 }
 
 .box h2 {
-  font-size: 45px;
+  margin-right: 20px;
 }
